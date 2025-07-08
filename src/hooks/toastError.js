@@ -6,5 +6,5 @@ export const toastError = (message) =>{
         if(message){
             toast.error(message)
         }
-    },[error]);
+    },[message]);
 }
